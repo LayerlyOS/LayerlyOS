@@ -1,0 +1,98 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Next.js
+.next
+out
+build
+dist
+.vercel
+.turbo
+
+# Testing
+coverage
+.nyc_output
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Debug
+*.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*.swn
+*.swm
+*~
+
+# IDE
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation (internal only; keep README if needed in image)
+docs
+.cursor
+.cursorrules
+CLAUDE.md
+AGENTS.md
+LAYERLY_FULL_DOCS.md
+
+# Build artifacts
+*.zip
+*.tar.gz
+src.zip
+scripts
+.backups
+*.bak
+*.tmp
+
+# Project specific (not needed in image)
+.agent
+.project-actions.json
+.vscode
+venv
+.github
+.trae
+
+# Flutter (if image is Next.js only; remove this line to include layerly in build context)
+layerly

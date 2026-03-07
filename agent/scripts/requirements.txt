@@ -1,0 +1,4 @@
+# Bambu login with 2FA (bypass Cloudflare). Prefer curl_cffi; cloudscraper is fallback.
+curl_cffi>=0.5.0
+cloudscraper>=1.2.0
+requests>=2.28.0

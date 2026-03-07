@@ -1,0 +1,100 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output
+
+# Next.js
+.next/
+out/
+build/
+dist/
+.vercel
+.turbo
+
+# Production
+*.log
+*.swp
+*.swo
+*.swn
+*.swm
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Build artifacts
+*.zip
+*.tar.gz
+
+# Backup files
+.backups/
+*.bak
+*.tmp
+
+# AI / internal (do not publish)
+.cursor/
+.cursorrules
+CLAUDE.md
+AGENTS.md
+LAYERLY_FULL_DOCS.md
+docs/
+.agent/
+.vscode/
+.project-actions.json
+venv/
+.github/
+.trae
+docs/
+scripts/
+start_dev.sh
+
+# Lock file: commit bun.lock for reproducible installs
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

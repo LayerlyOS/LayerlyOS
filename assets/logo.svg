@@ -1,0 +1,37 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Layerly Logo</title>
+  <defs>
+    <linearGradient id="layerlyLogoLg1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B3B8A" />
+      <stop offset="100%" stop-color="#5A5AA8" />
+    </linearGradient>
+    <linearGradient id="layerlyLogoLg2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5A5AA8" />
+      <stop offset="100%" stop-color="#9494C8" />
+    </linearGradient>
+    <linearGradient id="layerlyLogoLg3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9494C8" />
+      <stop offset="100%" stop-color="#C7C7E2" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon group -->
+  <g transform="translate(20, 20) scale(0.9459) translate(1.29, -33.68)">
+    <polygon points="24,46 78,46 66,62 12,62" fill="url(#layerlyLogoLg1)"/>
+    <polygon points="20,68 74,68 62,84 8,84" fill="url(#layerlyLogoLg2)"/>
+    <polygon points="16,90 70,90 58,106 4,106" fill="url(#layerlyLogoLg3)"/>
+  </g>
+
+  <!-- Text signature -->
+  <text
+    x="120"
+    y="84"
+    font-family="'Inter', system-ui, -apple-system, sans-serif"
+    font-weight="900"
+    font-size="54"
+    fill="#131522"
+    letter-spacing="-0.04em"
+  >
+    Layerly<tspan fill="#5C3DE6" font-size="58">.</tspan>
+  </text>
+</svg>

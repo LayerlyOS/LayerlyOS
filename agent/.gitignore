@@ -1,0 +1,39 @@
+# Binaries
+layerly-agent
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Config & Secrets
+.env
+.env.*
+config.yaml
+config.json
+certs/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python (if used for scripts)
+venv/
+__pycache__/
+*.pyc
+
+# Go
+go.work

@@ -1,0 +1,84 @@
+name: layerly
+description: "Layerly.cloud - Mobile app for 3D printing cost calculator"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Routing
+  go_router: ^14.2.7
+  
+  # State management
+  flutter_riverpod: ^2.6.1
+  
+  # HTTP client
+  dio: ^5.7.0
+  http: ^1.2.2
+  cookie_jar: ^4.0.8
+
+  # Supabase Auth
+  supabase_flutter: ^2.8.0
+  
+  # Secure storage
+  flutter_secure_storage: ^9.2.2
+  
+  # Models
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  
+  # Deep linking
+  app_links: ^6.3.2
+  
+  # URL launcher for OAuth
+  url_launcher: ^6.3.1
+  
+  # Custom Tabs / SFSafariViewController for OAuth (Google-compliant, preserves cookies)
+  flutter_inappwebview: ^6.1.5
+
+  # Device info for OAuth device_id/device_name
+  device_info_plus: ^10.1.2
+
+  # Path provider for file storage
+  path_provider: ^2.1.4
+
+  # Crypto for hashing (Gravatar)
+  crypto: ^3.0.5
+
+  # Cached network images
+  cached_network_image: ^3.4.1
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Code generation
+  build_runner: ^2.4.13
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/Outfit-Bold.ttf
+          weight: 700
